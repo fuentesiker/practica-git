@@ -1,4 +1,4 @@
-﻿public class Carro {
+public class Carro {
     private int velocidad;
 
     public Carro() {
@@ -6,7 +6,7 @@
     }
 
     public void acelerar() {
-        velocidad += 20;
+        velocidad += 10;
         System.out.println("El carro acelera. Velocidad actual: " + velocidad + " km/h");
     }
 
