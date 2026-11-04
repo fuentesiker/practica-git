@@ -142,3 +142,4 @@ if (Get-Command gh -ErrorAction SilentlyContinue) {
 
 Write-Host "`nTerminado. Abre PracticaGit en NetBeans para revisar y ejecutar la clase Carro." -ForegroundColor Cyan
 
+
