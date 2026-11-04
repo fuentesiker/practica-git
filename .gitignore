@@ -1,0 +1,12 @@
+# Archivos generados por Java/NetBeans
+/build/
+/dist/
+/target/
+/nbproject/private/
+/*.class
+*.log
+
+# Archivos locales y secretos
+.env
+.env.*
+!.env.example
