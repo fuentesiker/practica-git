@@ -1,4 +1,4 @@
-public class Carro {
+﻿public class Carro {
     private int velocidad;
 
     public Carro() {
@@ -10,9 +10,15 @@ public class Carro {
         System.out.println("El carro acelera. Velocidad actual: " + velocidad + " km/h");
     }
 
+    public void frenar() {
+        velocidad = Math.max(0, velocidad - 10);
+        System.out.println("El carro frena. Velocidad actual: " + velocidad + " km/h");
+    }
+
     public static void main(String[] args) {
         Carro miCarro = new Carro();
         miCarro.acelerar();
         miCarro.acelerar();
+        miCarro.frenar();
     }
 }
